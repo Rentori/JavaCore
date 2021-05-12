@@ -1,4 +1,4 @@
-package chapter11;
+package com.company.chapter11;
 
 class Q1 {
     int n;

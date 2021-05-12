@@ -1,10 +1,10 @@
-package chapter28;
+package com.company.chapter28;
 
 import java.util.concurrent.Phaser;
 
 public class PhaserDemo {
     public static void main(String[] args) {
-        Phaser phaser = new Phaser(1);
+        Phaser phaser = new Phaser(1, 3);
         int curPhase;
 
         System.out.println("Threads start");
